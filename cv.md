@@ -38,4 +38,4 @@ Both have **100% speed score** at Google PageSpeed Insights: [1](https://develop
 Belarusian State University, law faculty @ 2006
 
 ## ENGLISH LEVEL
-B2 according Streamline online test
+B2 according to Streamline online test
