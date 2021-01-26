@@ -29,3 +29,13 @@ class Clock extends Component {
 
 export default Clock;
 ```
+## MY PROJECTS
+[Online German courses](http://sicherdeutsch.de/)\
+[State support calculator](http://gospod.by/)\
+Both have **100% speed score** at Google PageSpeed Insights: [1](https://developers.google.com/speed/pagespeed/insights/?hl=en&url=http%3A%2F%2Fsicherdeutsch.de) [2](https://developers.google.com/speed/pagespeed/insights/?hl=en&url=http%3A%2F%2Fgospod.by%2F)
+
+## EDUCATION
+Belarusian State University, law faculty @ 2006
+
+## ENGLISH LEVEL
+B2 according Streamline online test
