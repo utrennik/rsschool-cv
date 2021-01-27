@@ -4,13 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Utrennik's CV</title>
-		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
 	</head>
 	<body>
-		<div class="container">
+		<main class="container">
 			<div class="cv">
 				<section class="section section-name">
-					<img class="section__avatar" src="/img/avatar.jpg" alt="avatar">
+					<img class="section__avatar" src="./img/avatar.jpg" alt="avatar">
 					<div class="section__content">
 						<h1 class="section__title">Alexander Dikarev</h1>
 						Front-end developer
@@ -19,7 +19,7 @@
 
 				<section class="section">
 					<h2 class="section__title">contacts</h2>
-					<div class="section__content">
+					<address class="section__content">
 						<ul>
 							<li>
 								<span>tel.:</span>
@@ -29,7 +29,7 @@
 							<li>
 								<span>e-mail:</span>
 								<a href="mailto:utrennik@list.ru">utrennik@list.ru</a>
-								<em> (preferred)</em>
+								<i> (preferred)</i>
 							</li>
 
 							<li>
@@ -37,7 +37,7 @@
 								<a href="https://www.linkedin.com/in/alexander-d-07bb2a201/">LinkedIn</a>
 							</li>
 						</ul>
-					</div>
+					</address>
 				</section>
 
 				<section class="section">
@@ -45,7 +45,7 @@
 					<div class="section__content">
 						Creative and self-starting Front End Developer. <br>
 						Learning to build and building usable and responsive websites and apps. <br>
-						Passionate about quality and usability. <br>
+						Passionate about <mark>quality and usability</mark>. <br>
 						Motivated, highly organized, friendly, collaborative, able to function well 
 						in a team. <br>
 					</div>
@@ -54,8 +54,17 @@
 				<section class="section">
 					<h2 class="section__title">skills</h2>
 					<div class="section__content">
-						HTML5, CSS3, SASS, BEM, JavaScript (ES6), Gulp, Bootstrap, Git, Photoshop,
-						 Figma.
+						<ul class="skills">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>SASS</li>
+							<li>JavaScript (ES6)</li>
+							<li>Gulp</li>
+							<li>Bootstrap</li>
+							<li>Git</li>
+							<li>Photoshop</li>
+							<li>Figma</li>
+						</ul>
 					</div>
 				</section>
 
@@ -101,9 +110,13 @@
 					<h2 class="section__title">english level</h2>
 					<div class="section-content">
 						B2 according to Streamline online test
-					</div>
+					</div> 
 				</section>
+				
 			</div>
-		</div>
+		</main>
+		<footer class="footer container">
+			<b>Author:</b> <a href="mailto:utrennik@list.ru">utrennik</a> &copy; 2021
+		</footer>
 	</body>
 </html>

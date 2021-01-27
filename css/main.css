@@ -11,6 +11,24 @@ ul {
 	margin: 0;
 }
 
+mark {
+	background-color: #f1f1f1;
+}
+
+address {
+	font: inherit;
+}
+
+a,
+a:visited {
+	color: #3e88d1;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .container {
 	max-width: 992px;
 	margin: 0 auto;
@@ -21,7 +39,7 @@ ul {
 	margin: 30px 0 50px 0;
 }
 
-.section{
+.section {
 	margin-bottom: 40px;
 }
 
@@ -65,4 +83,14 @@ ul {
 .content-code {
 	background: #f1f1f1;
 	padding: 15px;
+}
+
+.footer {
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+
+.skills li {
+	display: inline-block;
+	margin-left: 5px;
 }
