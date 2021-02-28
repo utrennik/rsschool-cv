@@ -94,3 +94,28 @@ a:hover {
 	display: inline-block;
 	margin-left: 5px;
 }
+
+.footer__links {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.footer__link {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.footer__link:first-child {
+	margin-left: 0;
+}
+
+.footer__link-youtube img{
+	width: 30px;
+	height: auto;
+}
+
+.footer__link-rs img{
+	width: 70px;
+	height: auto;
+}
